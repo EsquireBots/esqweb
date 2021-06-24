@@ -1,5 +1,5 @@
 .h2 {
-    color: #FFFFFF;
+    color: #D7D5C9;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -47,9 +47,8 @@
 body, html {
     background-color: #282a36;
     color: #17171A;
-    overflow: hidden;
+    overflow: visible;
 }
-
 
 .navbar-item, .navbar-link {
     color: #D7D5C9;
@@ -91,8 +90,17 @@ body, html {
     color: #FFFFFF;
 }
 
-.footer {
-    position:absolute;
+.footerstatic {
+    position: absolute;
+    bottom:0;
+    padding: 10px;
+    width:100%;
+    background:#1D1E23;
+    text-align: center;
+}
+
+.footerscroll {
+    position: sticky;
     bottom:0;
     padding: 10px;
     width:100%;
