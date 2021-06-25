@@ -111,3 +111,8 @@ body, html {
 p {
     color: #D7D5C9;
 }
+
+.code {
+    font-family: 'Fira Code', monospace;
+    color: red;
+}
